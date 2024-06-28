@@ -1,0 +1,136 @@
+.show {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  justify-items: center;
+  place-content: center;
+  font-family: Geneva;
+}
+
+.log {
+  margin-top: -100px;
+  width: 600px;
+  padding: 40px;
+  border: 4px solid black;
+  border-radius: 10px;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  background-color: #eefafc;
+}
+
+.log__title {
+  border-bottom: 2px solid black;
+  margin-bottom: 20px;
+  padding: 0 20px 0 20px;
+  font-size: 38px;
+  font-weight: bolder;
+}
+
+.log__post {
+  font-size: 18px;
+  padding: 10px;
+  text-align: start;
+}
+
+.log__status {
+  width: 100%;
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top: 2px dashed black;
+  border-bottom: 2px dashed black;
+}
+
+.log__status-mistakes,
+.log__status-days {
+  font-weight: bold;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 10px;
+}
+
+.log__status-mistakes span,
+.log__status-days span {
+  text-transform: uppercase;
+  font-size: 28px;
+  font-weight: bolder;
+  color: green;
+}
+
+.mistakes,
+.crisis {
+  color: red !important;
+}
+
+.log__capitain {
+  margin-top: 20px;
+}
+
+.log__capitain span {
+  font-weight: bolder;
+}
+
+.controls {
+  margin-top: 20px;
+  display: flex;
+  gap: 30px;
+}
+.controls a {
+  text-decoration: none;
+}
+
+.controls__back {
+  width: 100px;
+  padding: 10px 20px;
+  font-weight: bolder;
+  text-align: center;
+  border-radius: 1.5em;
+  border: 2px solid #02243c;
+  background-color: #02243c;
+  color: white;
+  color: white;
+  cursor: pointer;
+}
+
+.controls__back:hover {
+  color: #02243c;
+  border-color: #02243c;
+  background-color: white;
+}
+
+.controls__edit {
+  width: 100px;
+  padding: 10px 20px;
+  font-weight: bolder;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 1.5em;
+  background-color: darkgreen;
+  color: white;
+  cursor: pointer;
+}
+
+.controls__edit:hover {
+  border-color: darkgreen;
+  color: darkgreen;
+  background-color: white;
+}
+
+.controls__delete {
+  width: 100px;
+  padding: 10px 20px;
+  font-weight: bolder;
+  border: 2px solid black;
+  border-radius: 1.5em;
+  text-align: center;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+.controls__delete:hover {
+  background-color: white;
+  background-color: white;
+  color: red;
+}
